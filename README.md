@@ -17,3 +17,4 @@ Create Virtual env
  and install pip install gunicron eventlet
 
  create requirements.txt pip freeze > requirements.txt
+ gunicorn --worker-class eventlet -w 1 wsgi:app
