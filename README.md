@@ -9,3 +9,11 @@ Create Virtual env
  install flask packages using pip, pip in package manager of python
 
  pip install flask_socketio
+
+
+ deployment
+
+ u need to create wsgi.py file and
+ and install pip install gunicron eventlet
+
+ create requirements.txt pip freeze > requirements.txt
